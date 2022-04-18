@@ -1,0 +1,203 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero{
+
+  background-image: url(images/hero-img.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: rgba(49, 45, 47, 0.61);
+  background-blend-mode: soft-light;
+
+}
+
+#hero .container-fluid{
+  padding: 0;
+}
+
+#hero .navbar{
+  padding: 15px 40px;
+  font-family: "Montserrat-Bold";
+
+}
+
+#hero .nav-link{
+  margin-right: 20px;
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler{
+  border: none;
+}
+
+.menuicon{
+  color: #fff;
+  font-size: 40px;
+}
+
+
+.showcase{
+  text-align: center;
+  padding: 10% 15% 15%;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.hero-title{
+  font-weight: 900;
+  margin-bottom: 30px;
+  font-size: 3.5rem;
+
+}
+
+.hero-text{
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 30px;
+
+
+}
+
+.showcase .btn{
+margin: 0 30px 40px 0;
+border: solid 3px;
+border-radius: 0;
+font-weight: bold;
+padding: 1.5% 2%;
+width: 200px;
+}
+
+
+/* services section */
+#services{
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 10% 2%;
+  background-color: #fff;
+}
+
+.service-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10%;
+}
+
+#services .card{
+  border: solid 3px;
+  width: 80%;
+  padding: 0 5%;
+  margin: 0 auto 50px;
+
+
+}
+
+
+.card .card-title{
+  font-weight: bold;
+  margin: 40px 0 30px;
+  font-size: 2.5rem;
+
+}
+
+.card .card-text{
+  font-size: 18px;
+  text-align: center;
+
+
+}
+
+#services .btn{
+  border: solid 4px;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 5% 12%;
+  margin: 50px 0 35px;
+}
+
+/* footer section */
+
+#footer{
+text-align: center;
+  background-color: #191919;
+  color: #fff;
+  padding: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.copyright-text{
+font-family: "Montserrat";
+}
+
+.footer-icons i{
+
+  margin: 0 30px 20px 0;
+  font-size: 20px;
+
+}
+
+.footer-icons a:nth-child(1){
+  color: #F10086;
+
+}
+
+@media (max-width: 995px){
+  .showcase{
+    text-align: center;
+  }
+
+
+  #footer{
+    display: block;
+    text-align: center;
+    padding-top: 8%;
+  }
+
+
+  .hero-title, .service-heading{
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .hero-text{
+  margin: 80px 0;
+  line-height: 2;
+}
+
+.ex-mark{
+  display: none;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-icons a:nth-child(1){
+order: 3;
+}
+
+.footer-icons a:nth-child(2){
+  order: 2;
+}
+
+.footer-icons a:nth-child(3){
+  order: 1;
+}
+
+
+}
